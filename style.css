@@ -6,7 +6,6 @@ body {
 }
 
 div {
-    padding: 20px;
 
 }
 
@@ -25,13 +24,11 @@ div {
 
 ul {
 	font-family: 'Roboto Slab', serif;
-	background: rgba(255,255,255, 0.5);
 	padding: 3;
-    margin: auto;
 }
 
 li {
-	padding: 10px 10px 0px 15px;
+	padding: 0px 0px 0px 0px;
 	display: inline-block;
 	border-radius: 20px;
 	text-align: center;
@@ -43,16 +40,22 @@ header {
 	border-radius: 20px;
 }
 
+
+
 @media (max-width: 500px) {
-	h1 {
-		font-size: 36px;
+	html{
+      padding: 0px;
+    }
+  
+    h1 {
+		font-size: 26px;
 	}
+    
 	li {
-		display: block;
+		display: inline-block;
 		padding: 5px;
 	}
 }
-
 
 .profile {
 		display: block;
@@ -85,17 +88,18 @@ h1 {
 	font-size: 60px;
 	font-family: 'Pacifico', cursive;
 	color: black;
-    margin-top: -20px;
-}
+    padding: 0;
+    }
 
 
 h2 {
-		font-family: 'Roboto Slab', serif;
-		font-size: 20px;
-		padding: 0;
-        color: gray;
-        margin-top: -30px;
-	}
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	padding: 0;
+  color: gray;
+  padding: 0;
+  margin-top: -55px;
+}
 
 h3 {
 	font-family: 'Roboto Slab', serif;
@@ -113,6 +117,7 @@ a:link {
 		color: #174764;
 		text-decoration: none;
 		font-weight: bold;
+        padding-left: 10px;
 	}
 
 a:hover {
