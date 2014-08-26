@@ -55,8 +55,8 @@ html {
 }
 
 h1 {
-  font-size: 100px !important;
-   margin-top: 70px !important;
+  font-size: 75px !important;
+  margin-top: 70px !important;
 }
 p {
   font-size: 20px !important;
@@ -70,4 +70,15 @@ p {
 .page-scroll{
   font-size: 35px;
   color: black !important;
+}
+
+#data2{
+  display: none;
+}
+
+#data3{
+  display: none;
+}
+#data4{
+  display: none;
 }
